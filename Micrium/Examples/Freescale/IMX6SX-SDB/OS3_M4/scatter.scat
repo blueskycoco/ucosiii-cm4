@@ -1,0 +1,26 @@
+
+
+      
+SRAML 0x1FFF8000 0x10000
+{
+    VECTOR +0
+    {
+        vector.o(.vector)
+    }
+    
+    EXEC +0
+    {
+        startup.o(StartUp +FIRST)
+        * (+RO)
+    }
+    
+    DATA +0
+    {
+        * (+RW,+ZI)
+    }
+    
+    STACK        +0 ALIGN 8 EMPTY  1024 {}
+    
+    ARM_LIB_STACKHEAP  +0 ALIGN 8 EMPTY 0x400 {} 
+}
+

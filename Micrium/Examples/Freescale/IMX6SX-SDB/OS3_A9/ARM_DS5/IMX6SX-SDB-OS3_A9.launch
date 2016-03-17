@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.arm.debugger.launcher2">
+<stringAttribute key="ANDROID_ACTIVITY_NAME" value=""/>
+<stringAttribute key="ANDROID_APPLICATION" value=""/>
+<stringAttribute key="ANDROID_APP_DIR" value=""/>
+<stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
+<intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
+<booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
+<stringAttribute key="EVENT_VIEWER_MAX_DEPTH" value="1Mb"/>
+<stringAttribute key="EVENT_VIEWER_MAX_DEPTH_NUMBER" value="1048576"/>
+<booleanAttribute key="EVENT_VIEWER_STM_ENABLED" value="false"/>
+<stringAttribute key="EVENT_VIEWER_STM_MAX_DEPTH" value="1Mb"/>
+<stringAttribute key="EVENT_VIEWER_STM_MAX_DEPTH_NUMBER" value="1048576"/>
+<intAttribute key="FILES.CONNECT_TO_GDB_SERVER.RESOURCES.COUNT" value="0"/>
+<intAttribute key="FILES.DEBUG_EXISTING_ANDROID.RESOURCES.COUNT" value="0"/>
+<listAttribute key="FILES.DEBUG_RESIDENT_ANDROID"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.DEBUG_RESIDENT_APP"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="APPLICATION_ON_TARGET"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
+<intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
+<listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
+<intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
+<listAttribute key="FILES.DOWNLOAD_DEBUG"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
+<intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
+<intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
+<listAttribute key="FILES.ICE_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/IMX6SX-SDB-OS3_A9/Debug/IMX6SX-SDB-OS3_A9.axf}"/>
+<intAttribute key="FILES.ICE_DEBUG.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.VALUE" value="${workspace_loc:/Zynq-ZC702-uCOSII_Port/Debug/Zynq-ZC702-uCOSII_Port.axf}"/>
+<intAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.ICE_DEBUG_WITH_TRACE">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.COUNT" value="1"/>
+<stringAttribute key="FILES.SELECTED_DEBUG_OPEATION" value="ICE_DEBUG"/>
+<stringAttribute key="HOST_WORKING_DIR" value="${workspace_loc}"/>
+<booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
+<booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="false"/>
+<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value=""/>
+<booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
+<stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
+<booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.ExpressionsView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="ELEMENT_GROUP:AppTaskStartStk.[4000...4095]"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:AppTaskStartStk"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:FS_OS_LockSem"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:(FS_OS_LockSem).PendList"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:reg"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:reg_val"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+</listAttribute>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.NewRegisterView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="VALUE:$Core::$SVC::$SPSR_SVC"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$CP15::$VAtoPA::$CP15_PAR"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$MPCORE::$MPCORE_SCU_CONTROL_REGISTER"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$MPCORE::$MPCORE_ICCICR"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$MPCORE::$MPCORE_ICDDCR"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$MPCORE::$MPCORE_ICDABR2"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$UART1::$UART1_CONTROL_REG0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$UART1::$UART1_INTRPT_EN_REG0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$UART1::$UART1_INTRPT_MASK_REG0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$UART1::$UART1_CHNL_INT_STS_REG0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$UART1::$UART1_CHANNEL_STS_REG0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$GPIO::$GPIO_DATA_0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$GPIO::$GPIO_DIRM_0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$GPIO::$GPIO_OEN_0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$SLCR::$SLCR_SLCR_LOCKSTA"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$Peripherals::$SLCR::$SLCR_OCM_CFG"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:Peripherals"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:DoublePrecision"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:VFP_Control"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:NEON_Quad_Regs"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$CP15::$MMU::$CP15_DFSR"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:Core"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:CP15"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:System"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:MMU"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:Performance"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:PLE"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="REGISTER_GROUP:TCM"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:$CP15::$System::$SCTLR"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+</listAttribute>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.VariableTreeView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_def_ahci_bsp.c::FSDev_AHCI_BSP_Open::addl"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_def_ahci_bsp.c::FSDev_AHCI_BSP_Open::p_port"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_def_ahci_bsp.c::FSDev_AHCI_BSP_Open::p_port-&gt;PortCmdtAddr"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_def_ahci_bsp.c::FSDev_AHCI_BSP_Open::p_port-&gt;PortRfisAddr"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_def_ahci_bsp.c::FSDev_AHCI_BSP_Open::p_port-&gt;PortDataAddr"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_ata_identify::p_port-&gt;PortDataPtr"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/uCOS-III/Source/os_sem.c::OSSemPend::p_sem"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/uCOS-III/Source/os_sem.c::OSSemPend::p_sem-&gt;PendList"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/uC-FS/Source/fs_dev.c::FS_DevDrvAdd::name_dev"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/uCOS-III/Source/os_sem.c::OS_SemPost::p_sem"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/uCOS-III/Source/os_sem.c::OS_SemPost::p_sem-&gt;PendList"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/uCOS-III/Source/os_sem.c::OSSemCreate::p_name"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/uCOS-III/Source/os_core.c::OS_PendListInit::p_pend_list"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_port_start::ctl"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_port_start::reg"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_port_start::p_port"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_port_start::p_port-&gt;PortCmdlAddr"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_port_start::p_port-&gt;PortCmdtAddr"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_port_start::p_port-&gt;PortRfisAddr"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/EvalBoards/Freescale/IMX6Q-SDB/uC-FS_AHCI/Application/fs_dev_ahci.c::ahci_ata_identify::reg"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/uC-FS/Source/fs_dev.c::FSDev_Open::name_dev"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="VALUE:C:/Micrium/Software/uC-FS/Source/fs_dev.c::FSDev_Open::p_err"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="VALUE:C:/Micrium/Software/uC-FS/Source/fs_dev.c::FSDev_Open::name_file"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="COMPILATION_UNIT:app.c"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="FILE_STATICS:0"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+<listEntry value="GLOBALS:Globals"/>
+<listEntry value="1"/>
+<listEntry value="expanded"/>
+<listEntry value="true"/>
+</listAttribute>
+<booleanAttribute key="VFS_ENABLED" value="true"/>
+<stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
+<stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints order=&quot;ALPHA&quot;&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value="Start"/>
+<listEntry value="0x1FFF8100"/>
+<listEntry value="0x80032DA4"/>
+<listEntry value="0x3003268C"/>
+<listEntry value="0x2E001198"/>
+<listEntry value="0x1CF09FE6"/>
+<listEntry value="0x00900194"/>
+<listEntry value="0x00900134"/>
+<listEntry value="0x00900DC0"/>
+<listEntry value="main"/>
+<listEntry value="0x0090109C"/>
+<listEntry value="0x00901060"/>
+<listEntry value="ARMv7Attbl_SuperSecMap"/>
+<listEntry value="0x0106BD98"/>
+<listEntry value="S:0x01000464"/>
+<listEntry value="S:0x01000444"/>
+<listEntry value="S:0x30024D2C"/>
+<listEntry value="0x900000 + 0x40000 - 0x10"/>
+<listEntry value="0x900000 + 0x40000"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+<listEntry value="100"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.MemoryView.addresses">
+<listEntry value="0x007f8000"/>
+<listEntry value="0x007F8000"/>
+<listEntry value="0x20DC02C"/>
+<listEntry value="0"/>
+<listEntry value="0x1FFF8000"/>
+<listEntry value="reg_val"/>
+<listEntry value="0x20C4074"/>
+<listEntry value="0x00A02100"/>
+<listEntry value="0x20E402C"/>
+<listEntry value="0x00A02000"/>
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value="0x80000000"/>
+<listEntry value="0x00900000"/>
+<listEntry value="AHB:0x020c4000"/>
+<listEntry value="S:0x020c4000"/>
+<listEntry value="0x020c4000"/>
+<listEntry value="AHB:0x02c4000"/>
+<listEntry value="0x02c4000"/>
+<listEntry value="AHB:0x02000000"/>
+<listEntry value="S:0x02000000"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.MemoryView.ranges">
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+</listAttribute>
+<stringAttribute key="config_db_activity_name" value="Debug Cortex-A9"/>
+<stringAttribute key="config_db_connection_keys" value="dtsl_tracecapture_option dtsl_config rvi_address config_file dtsl_config_script TCP_KILL_ON_EXIT TCP_DISABLE_EXTENDED_MODE"/>
+<stringAttribute key="config_db_connection_type" value="Bare Metal Debug"/>
+<stringAttribute key="config_db_platform_name" value="Freescale - iMX6SoloX"/>
+<stringAttribute key="config_db_project_type" value="Bare Metal Debug"/>
+<stringAttribute key="config_db_project_type_id" value="BARE_METAL"/>
+<stringAttribute key="config_db_taxonomy_id" value="/platform/freescale/imx6solox"/>
+<stringAttribute key="config_file" value="CDB://iMX6SoloX.rvc"/>
+<booleanAttribute key="connectOnly" value="false"/>
+<stringAttribute key="connection_type" value="DSTREAM"/>
+<listAttribute key="debugger.view.DisassemblyView:current">
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value="100"/>
+</listAttribute>
+<listAttribute key="debugger.view.DisassemblyView:current:592178059364901756.viewid=3">
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value="100"/>
+</listAttribute>
+<listAttribute key="debugger.view.ExpressionsView">
+<listEntry value="(ARM_REG_GIC_IF_PTR)(0x00A00000+0x100)"/>
+<listEntry value="(ARM_REG_GIC_DIST_PTR)(0x00A00000+0x1000)"/>
+<listEntry value="reg"/>
+<listEntry value="FS_OS_LockSem"/>
+<listEntry value="app.c::AppTaskStartStk"/>
+<listEntry value="&quot;Application/app.c&quot;::AppTaskStartStk"/>
+<listEntry value="reg_val"/>
+<listEntry value="LR1"/>
+</listAttribute>
+<listAttribute key="debugger.view.ExpressionsView.ExpressionTypes">
+<listEntry value="EXPRESSION_ERROR"/>
+<listEntry value="EXPRESSION_ERROR"/>
+<listEntry value="EXPRESSION_ERROR"/>
+<listEntry value="EXPRESSION_ERROR"/>
+<listEntry value="EXPRESSION_ERROR"/>
+<listEntry value="VALUE&#9;com.arm.debugger.views.common.outline.DefaultDataFormatter&#9;4096"/>
+<listEntry value="EXPRESSION_ERROR"/>
+<listEntry value=""/>
+</listAttribute>
+<stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; autoAlign=&quot;false&quot; showTooltipTag=&quot;true&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Hexadecimal&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
+<listAttribute key="debugger.view.MemoryView:current">
+<listEntry value="0x007f8000"/>
+<listEntry value="1024"/>
+</listAttribute>
+<stringAttribute key="debugger.view.ModulesView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.TraceView:BUCKET_SIZE" value="SINGLE"/>
+<booleanAttribute key="debugger.view.TraceView:SHOW_FUNCTIONS" value="false"/>
+<listAttribute key="debugger.view.TraceView:TRACE_EXPORT_FILTERS"/>
+<stringAttribute key="debugger.view.TraceView:VIEW_LAYOUT" value="BOTH"/>
+<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
+<stringAttribute key="ds5_launch_configuration_version" value="5.12"/>
+<stringAttribute key="dtsl_config" value="DtslScript"/>
+<stringAttribute key="dtsl_config_script" value="CDB://dtsl_config_script.py"/>
+<stringAttribute key="dtsl_options_file" value="default"/>
+<stringAttribute key="dtsl_tracecapture_option" value="options.trace.traceCapture"/>
+<stringAttribute key="dtsl_tracesource" value="ETB"/>
+<stringAttribute key="eventviewer_tracesource" value="ITM"/>
+<booleanAttribute key="linuxOS" value="false"/>
+<stringAttribute key="model_params" value=""/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="rddi_type" value="rddi-debug-rvi"/>
+<booleanAttribute key="runAfterConnect" value="false"/>
+<stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/IMX6SX-SDB-OS3_A9/Freescale/IMX6SX-SDB/BSP_A9/RealView/imx6sx_a9.ds}"/>
+<stringAttribute key="rvi_address" value="USB:001701"/>
+<stringAttribute key="signalSettings" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;signals&gt;&#10;&#9;&lt;signal signal_name=&quot;RESET&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;UNDEF&quot; signal_stop=&quot;yes&quot; signal_print=&quot;yes&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;SVC&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;PREFETCH_ABORT&quot; signal_stop=&quot;yes&quot; signal_print=&quot;yes&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;DATA_ABORT&quot; signal_stop=&quot;yes&quot; signal_print=&quot;yes&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;IRQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;FIQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;SMC&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_PREFETCH_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_DATA_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_IRQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_FIQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_UNDEF&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_SVC&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_PREFETCH_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_DATA_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_IRQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_FIQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&lt;/signals&gt;&#10;"/>
+<stringAttribute key="stopAtExpression" value="*$ENTRYPOINT"/>
+<stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
+</launchConfiguration>

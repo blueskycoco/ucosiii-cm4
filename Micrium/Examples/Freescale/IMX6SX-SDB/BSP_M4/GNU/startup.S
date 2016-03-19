@@ -99,6 +99,9 @@ LoopFillZerobss:
     cmp r2, r3
     bcc FillZerobss
 
+	movs	r0,	g_pfnVectors
+	ldr.w	r1,	=0xE000ED08
+	str		r0,	[r1]
                                             @ Call the clock system intitialization function.
 @    bl  SystemInit
 

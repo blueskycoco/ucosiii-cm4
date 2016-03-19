@@ -70,42 +70,9 @@
 Reset_Handler:
     ldr sp, =_estack                        @ set stack pointer.
 
-                                            @ Copy the data segment initializers from flash to SRAM
-    movs r1, #0
-    b LoopCopyDataInit
-
-CopyDataInit:
-    ldr r3, =_sidata
-    ldr r3, [r3, r1]
-    str r3, [r0, r1]
-    adds r1, r1, #4
-
-LoopCopyDataInit:
-    ldr r0, =_sdata
-    ldr r3, =_edata
-    adds r2, r0, r1
-    cmp r2, r3
-    bcc CopyDataInit
-    ldr r2, =_sbss
-    b LoopFillZerobss
-
-                                            @ Zero fill the bss segment.
-FillZerobss:
-    movs r3, #0
-    str r3, [r2], #4
-
-LoopFillZerobss:
-    ldr r3, = _ebss
-    cmp r2, r3
-    bcc FillZerobss
-
-	movs	r0,	g_pfnVectors
-	ldr.w	r1,	=0xE000ED08
-	str		r0,	[r1]
-                                            @ Call the clock system intitialization function.
-@    bl  SystemInit
-
-#if (defined(__VFP_FP__) && !defined(__SOFTFP__))
+	MOVS	r0,	g_pfnVectors
+	LDR.W	r1,	=0xE000ED08
+	STR		r0,	[r1]
                                             @ Enable Floating Point Support at reset for FPU
     LDR.W   R0, =0xE000ED88                 @ Load address of CPACR register
     LDR     R1, [R0]                        @ Read value at CPACR
@@ -118,12 +85,10 @@ LoopFillZerobss:
                                             @ Disable lazy context switch
     LDR.W   R0, =0xE000EF34                 @ Load address to FPCCR register
     LDR     R1, [R0]
-    AND     R1,  R1, #(0x3FFFFFFF)          @ Clear the LSPEN and ASPEN bits
+    BIC     R1,  R1, #(0x80000000)          @ Clear the LSPEN and ASPEN bits
+    BIC     R1,  R1, #(0x40000000)          @ Clear the LSPEN and ASPEN bits
     STR     R1, [R0]
     ISB                                     @ Reset pipeline now the FPU is enabled
-#endif
-                                            @ Call static constructors
-@    bl __libc_init_array
                                             @ Call the application's entry point.
     bl  main
     bx  lr

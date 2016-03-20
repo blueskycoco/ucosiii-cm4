@@ -45,7 +45,7 @@ IPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/uCOS-III
 IPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/GNU
 IPATH+=./Micrium/Software/uC-CPU/ARM-Cortex-M4/GNU
 IPATH+=./Micrium/Software/uCOS-III/Ports/ARM-Cortex-M4/Generic/GNU
-
+IPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/mcc/include
 
 VPATH=./Micrium/Examples/Freescale/IMX6SX-SDB/OS3_M4
 VPATH+=./Micrium/Software/uC-CPU
@@ -56,6 +56,8 @@ VPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/uCOS-III
 VPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/GNU
 VPATH+=./Micrium/Software/uC-CPU/ARM-Cortex-M4/GNU
 VPATH+=./Micrium/Software/uCOS-III/Ports/ARM-Cortex-M4/Generic/GNU
+VPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/mcc
+VPATH+=./Micrium/Examples/Freescale/IMX6SX-SDB/BSP_M4/mcc/mqx
 #
 # The default rule, which causes the uart_echo example to be built.
 #
@@ -116,10 +118,17 @@ ${COMPILER}/uCosIII.axf: ${COMPILER}/startup.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/cpu_a.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/os_cpu_a.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/vector.o
+${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_api.o
+${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_common.o
+${COMPILER}/uCosIII.axf: ${COMPILER}/mu_imx6sx_m4.o
+${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_imx6sx.o
+${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_mqx.o
+#${COMPILER}/uCosIII.axf: ${COMPILER}/cortex.o
+#${COMPILER}/uCosIII.axf: ${COMPILER}/nvic.o
 ${COMPILER}/uCosIII.axf: ram.ld
 SCATTERgcc_uCosIII=ram.ld
 ENTRY_uCosIII=Reset_Handler
-CFLAGSgcc=
+CFLAGSgcc=-DMQX_CPU=PSP_CPU_IMX6SX_M4
 
 #
 # Include the automatically generated dependency files.

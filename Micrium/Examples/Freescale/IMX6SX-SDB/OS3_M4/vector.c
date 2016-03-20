@@ -4,7 +4,7 @@
 #include  <bsp.h>
 #include  <bsp_int.h>
 
-extern void Start (void);
+extern void Reset_Handler (void);
 extern void  BSP_DefaultISRHandler (void);
 extern void  BSP_DefaultNMIHandler (void);
 extern void  BSP_DefaultHardFaultHandler (void);
@@ -13,12 +13,11 @@ extern void  BSP_DefaultMemManageFaultHandler (void);
 extern void  BSP_DefaultBusFaultHandler (void);
 extern void  BSP_DefaultUsageFaultHandler (void);
 
-#pragma arm section rodata=".vector"
-
+__attribute__((section(".vectors")))
 const CPU_FNCT_VOID VectorTable[] =
 {
         (CPU_FNCT_VOID)0x20008000,
-        Start,
+        Reset_Handler,
         BSP_DefaultNMIHandler,
         BSP_DefaultHardFaultHandler,
         BSP_DefaultDebugMonHandler,

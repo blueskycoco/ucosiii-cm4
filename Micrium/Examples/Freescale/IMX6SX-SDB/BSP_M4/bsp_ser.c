@@ -128,8 +128,8 @@ void  BSP_Ser_Init (void)
     DEF_BIT_SET(IMX6_UART_UART2_UCR2, DEF_BIT_02);              /* Enable TX.                                           */
     DEF_BIT_SET(IMX6_UART_UART2_UCR2, DEF_BIT_00);              /* De-assert reset.                                     */
 
-    /* Default configuration for 115200 at 80Mhz ref clock. */
-    IMX6_UART_UART2_UBIR = 1151u;
+    /* Default configuration for 115200 at 24Mhz ref clock. */
+    IMX6_UART_UART2_UBIR = 3845u;//1151
     IMX6_UART_UART2_UBMR = 49999u;
 
 }

@@ -115,8 +115,9 @@ ${COMPILER}/uCosIII.axf: ${COMPILER}/_sbrk.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/startup.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/cpu_a.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/os_cpu_a.o
-${COMPILER}/uCosIII.axf: solox_cm4.ld
-SCATTERgcc_uCosIII=solox_cm4.ld
+${COMPILER}/uCosIII.axf: ${COMPILER}/vector.o
+${COMPILER}/uCosIII.axf: ram.ld
+SCATTERgcc_uCosIII=ram.ld
 ENTRY_uCosIII=Reset_Handler
 CFLAGSgcc=
 

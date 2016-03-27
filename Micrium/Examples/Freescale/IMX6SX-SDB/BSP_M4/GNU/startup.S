@@ -68,7 +68,7 @@
     .weak  Reset_Handler
     .type  Reset_Handler, %function
 Reset_Handler:
-    ldr sp, =__SRAM_POOL_START                        @ set stack pointer.
+@    ldr sp, =__SRAM_POOL_START                        @ set stack pointer.
                                             @ Call the application's entry point.
                                             
     LDR.W  r0, =VectorTable

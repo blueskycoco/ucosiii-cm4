@@ -122,7 +122,7 @@ ${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_api.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_common.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/mu_imx6sx_m4.o
 ${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_imx6sx.o
-${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_mqx.o
+#${COMPILER}/uCosIII.axf: ${COMPILER}/mcc_mqx.o
 #${COMPILER}/uCosIII.axf: ${COMPILER}/cortex.o
 #${COMPILER}/uCosIII.axf: ${COMPILER}/nvic.o
 ${COMPILER}/uCosIII.axf: ram.ld
